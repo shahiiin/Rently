@@ -2,7 +2,7 @@
 *{
   font-family: 'Archivo Narrow', sans-serif;
 }
-
+@import 'react-phone-number-input/style.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

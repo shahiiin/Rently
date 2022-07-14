@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import PhoneInput from 'react-phone-number-input'
 
 function Register() {
   const [value, setValue] = useState()
@@ -21,7 +21,29 @@ function Register() {
            block w-small rounded-md sm:text-sm focus:purple rounded-2xl"
             placeholder="shahin shahi" />
         </label>
-   
+        <label className="block text-purple ">
+          <span className="after:ml-0.5
+           after:text-red-500 
+           block text-sm font-medium text-slate-700 px-1 py-3">
+            Phone number
+          </span>
+          <PhoneInput
+            style={{
+              display: 'block',
+              paddingTop: '0.5rem',
+              paddingBottom: '0.5rem',
+              paddingLeft: '0.75rem',
+              paddingRight: '0.75rem', 
+              borderRadius: '0.375rem', 
+              borderWidth: '1px', 
+              boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)', 
+              height: '53px',
+             }}
+            placeholder="Enter phone number"
+            value={value}
+            onChange={setValue} />
+        </label>
+
         <label className="block text-purple ">
           <span className="after:ml-0.5
            after:text-red-500 
