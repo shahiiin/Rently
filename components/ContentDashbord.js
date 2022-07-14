@@ -9,7 +9,7 @@ function ContentDashbord() {
 
   return (
     <div className='flex p-5 h-100'>
-      <div className='drop-shadow-3xl  w-[350px] rounded-3xl shadow-lg shadow-cyan-500/50 m-20'>
+      <div className='w-[350px] rounded-3xl shadow-lg shadow-cyan-500/50 m-20'>
         <p className='p-10 text-purple font-bold text-2xl'>My listings</p>
         <div className='text-center mt-12'>
           <Image src={Home} alt='home' />
@@ -22,7 +22,7 @@ function ContentDashbord() {
           </button>
         </div>
       </div>
-      <div className='drop-shadow-3xl  w-[350px] shadow-lg shadow-cyan-500/50 rounded-3xl m-20 '>
+      <div className='w-[350px] shadow-lg shadow-cyan-500/50 rounded-3xl m-20 '>
         <p className='p-10 text-purple font-bold text-2xl'>Activities</p>
         <div className='text-center mt-12'>
           <Image src={Ring} alt='ring' />
