@@ -36,12 +36,12 @@ function LoginForm() {
           <button className='border  border-green-100 bg-green-100 text-white rounded-lg w-[161px] h-[50px]'>Login</button>
 
         </div>
-        <div className='py-3 px-3'>
+        <div className='p-2 justify-between'>
           <input id="default-checkbox" type="checkbox"
             className="w-3 h-3 text-green rounded border-green" />
-          <label className="ml-2 text-sm text-green">Remember me!</label>
-          <a href='#' className='ml-28 text-green text-sm'>Forget Password</a>
-        </div>
+           <label className="ml-2 text-sm text-green">Remember me!</label>
+            <a href='#' className='ml-28 text-green text-sm'>Forget Password</a>
+           </div>
       </form>
     </div>
 
