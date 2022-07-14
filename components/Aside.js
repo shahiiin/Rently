@@ -9,7 +9,7 @@ import {AiFillHome} from 'react-icons/ai'
 function Aside() {
 
   return (
-    <div className='bg-purple h-100 w-[326px] p-8'>
+    <div className='bg-purple h-100  p-8'>
       <p className='text-white'>Jereme Tarik</p>
       <div className='mt-20'>
         <div className='flex text-[#ffffff]'>
