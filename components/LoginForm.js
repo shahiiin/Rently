@@ -1,8 +1,10 @@
+import QrCode from "./QrCode"
+
 
 
 function LoginForm() {
   return (
-    <div className='flex flex-col justify-center items-center h-100'>
+    <div className='flex flex-col justify-center items-center mt-20'>
       <h1 className='text-purple text-2xl'>Login your account</h1>
       <form>
         <label className="block text-purple ">
@@ -43,6 +45,7 @@ function LoginForm() {
             <a href='#' className='ml-28 text-green text-sm'>Forget Password</a>
            </div>
       </form>
+      <QrCode/>
     </div>
 
   )
