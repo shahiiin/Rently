@@ -17,7 +17,7 @@ function MoreInfo() {
           focus:outline-none border-green focus:border-purple focus:placeholder-purple
            block w-small rounded-md sm:text-sm focus:purple rounded-2xl"
           placeholder="E.g. S1234567A" />
-                  <label className="block text-purple " />
+        <label className="block text-purple " />
         <span className="after:ml-0.5 mt-5
            after:text-red-500 
            block text-sm font-medium text-slate-700 px-1 py-3">
@@ -31,7 +31,7 @@ function MoreInfo() {
           placeholder="E.g. M1234567N" />
       </form>
       <div>
-      <button className='border mt-10  border-none bg-green-100 text-white rounded-lg w-[400px] h-[50px]'>Login</button>
+        <button className='border mt-10  border-none bg-green-100 text-white rounded-lg w-[400px] h-[50px]'>Continue</button>
       </div>
     </div>
   )
