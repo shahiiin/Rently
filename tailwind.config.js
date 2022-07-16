@@ -6,6 +6,25 @@ module.exports = {
     "./layout/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    borderWidth: {
+      DEFAULT: '1px',
+      '0': '0',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '6': '6px',
+      '8': '8px',
+    },
+    borderRadius: {
+      'none': '0',
+      'sm': '0.125rem',
+      DEFAULT: '0.25rem',
+      DEFAULT: '8px',
+      'md': '0.375rem',
+      'lg': '0.5rem',
+      'full': '9999px',
+      'large': '12px',
+    },
     fontSize: {
       'xs': '.75rem',
       'sm': '.875rem',
@@ -61,6 +80,7 @@ module.exports = {
       'white': '#FFFFFF',
       'gray': '#C4C4C4',
       'light-gray':'#F9F9F9',
+      'red2':'#f80509',
     },
     dropShadow: {
       'md': '0px, 1px',
