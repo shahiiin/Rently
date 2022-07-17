@@ -53,6 +53,9 @@ module.exports = {
       '7xl': '5rem',
     },
     extend: {
+      gridColumn: {
+        'span-2': 'span 2 / span 2',
+      },
       borderRadius: {
         'md': '15px',
         'lg': '20px',
