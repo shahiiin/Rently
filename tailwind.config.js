@@ -53,6 +53,9 @@ module.exports = {
       '7xl': '5rem',
     },
     extend: {
+      spacing: {
+        '5px': '5px',
+      },
       gridColumn: {
         'span-2': 'span 2 / span 2',
       },
@@ -97,6 +100,7 @@ module.exports = {
       'gray': '#C4C4C4',
       'light-gray':'#F9F9F9',
       'red2':'#f80509',
+      'dolphin-gray':'#7A86A9',
     },
     dropShadow: {
       'md': '0px, 1px',
