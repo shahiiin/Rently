@@ -79,7 +79,7 @@ module.exports = {
         '65': '65vh',
         '80': '80vh',
         '100': '100vh',
-        '130':' 130vh',
+        '130': ' 130vh',
       },
       width: {
         'xs-small': '345px',
@@ -89,6 +89,7 @@ module.exports = {
       },
       marginLeft: {
         'larg': '7.5rem',
+        'xl': '28.2rem',
       }
     },
     colors: {
@@ -98,9 +99,10 @@ module.exports = {
       'red': '#E24949',
       'white': '#FFFFFF',
       'gray': '#C4C4C4',
-      'light-gray':'#F9F9F9',
-      'red2':'#f80509',
-      'dolphin-gray':'#7A86A9',
+      'light-gray': '#F9F9F9',
+      'red2': '#f80509',
+      'dolphin-gray': '#7A86A9',
+      'dark-gray': '#f9f9f9',
     },
     dropShadow: {
       'md': '0px, 1px',

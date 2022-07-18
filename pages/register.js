@@ -1,9 +1,12 @@
 import { useState } from 'react'
 import PhoneInput from 'react-phone-number-input'
 
+
 function Register() {
+
   const [value, setValue] = useState()
-  console.log(value, 'ss')
+
+
   return (
     <div className='flex flex-col justify-center items-center'>
       <h1 className='text-purple text-2xl mt-20'>Sign up to Rently</h1>
@@ -33,12 +36,12 @@ function Register() {
               paddingTop: '0.5rem',
               paddingBottom: '0.5rem',
               paddingLeft: '0.75rem',
-              paddingRight: '0.75rem', 
-              borderRadius: '0.375rem', 
-              borderWidth: '1px', 
-              boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)', 
+              paddingRight: '0.75rem',
+              borderRadius: '0.375rem',
+              borderWidth: '1px',
+              boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
               height: '53px',
-              }}
+            }}
             placeholder="Enter phone number"
             value={value}
             onChange={setValue} />
@@ -87,9 +90,7 @@ function Register() {
         <div className='space-y-10 space-x-20 mb-24'>
           <button className='border  border-green-100 bg-transparent text-green-100 rounded-lg w-[161px] h-[50px]'>Login</button>
           <button className='border  border-green-100 bg-green-100 text-white rounded-lg w-[161px] h-[50px]'>Sgin up</button>
-
         </div>
-
       </form>
     </div>
 
