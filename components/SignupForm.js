@@ -1,13 +1,25 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import PhoneInput from 'react-phone-number-input'
+import axios from 'axios'
 
 
 function SignupForm() {
-  
-  
+
+
   const [value, setValue] = useState()
- 
-  
+  const [user, setUser] = useState('')
+
+  const url = 'https://publicapi.dev.rently.sg/singpasstoken/6d349c7f-4d38-41a2-85db-2d04006e7c22'
+
+  const post = axios.post(url)
+    .then(response => {
+      setUser(response.data)
+      console.log(response.data, 'aa')
+    })
+  useEffect(() => {
+    post()
+  }, [])
+
   return (
     <div>
       <div className='flex flex-col justify-center items-center mt-20'>
