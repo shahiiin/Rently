@@ -65,6 +65,7 @@ module.exports = {
         'xl': '25px',
       },
       height: {
+        '5':'5vh',
         '10': '10vh',
         '15': '15vh',
         '20': '20vh',

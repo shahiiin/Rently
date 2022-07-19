@@ -22,7 +22,7 @@ function SignupForm() {
             <input type="email" name="email"
               className="mt-1 px-3 py-2 h-[53px]  border
           shadow-sm  placeholder-slate-400 
-          focus:outline-none border-green focus:ring-green
+          focus:outline-none border-green focus:ring-purple
            block w-small rounded-md sm:text-sm focus:ring rounded-2xl"
               placeholder="Tarik Jereme Sybe" />
           </label>
@@ -57,7 +57,7 @@ function SignupForm() {
             <input type="email" name="email"
               className="mt-1 px-3 py-2 h-[53px]  border
           shadow-sm  placeholder-slate-400 
-          focus:outline-none border-green focus:ring-green
+          focus:outline-none border-green focus:ring-purple
            block w-small rounded-md sm:text-sm focus:ring rounded-2xl"
               placeholder="tarik@yahoo.com" />
           </label>
