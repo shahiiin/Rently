@@ -4,7 +4,7 @@ import {useEffect} from "react";
 
 function QrCode() {
 
-    let checkInit = false; //Just call once to check init
+    let checkInit = false; 
 
     useEffect(() => {
 

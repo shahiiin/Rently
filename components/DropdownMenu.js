@@ -8,9 +8,9 @@ import Select from 'react-select'
 function Dropdown() {
 
   const options = [
-    { value: 'chocolate', label: 'Chocolate' },
-    { value: 'strawberry', label: 'Strawberry' },
-    { value: 'vanilla', label: 'Vanilla' }
+    { value: 'chocolate', label: 'Chocolate', id:'1' },
+    { value: 'strawberry', label: 'Strawberry', id:'2' },
+    { value: 'vanilla', label: 'Vanilla', id:'3' }
   ]
 
   return (
