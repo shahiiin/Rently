@@ -1,12 +1,12 @@
-import React from 'react'
-import MoreInfo from '../components/MoreInfo'
+import React from "react";
+import MoreInfo from "@components/MoreInfo";
 
 function info() {
   return (
     <div>
-      <MoreInfo/>
+      <MoreInfo />
     </div>
-  )
+  );
 }
 
-export default info
+export default info;

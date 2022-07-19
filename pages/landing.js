@@ -1,17 +1,16 @@
-import React from 'react'
-import Brand from '../components/Brand'
-import MainAction from '../components/MainAction'
+import React from "react";
+import Brand from "@components/Brand";
+import MainAction from "@components/MainAction";
 
 function landing() {
   return (
-    <div div className='h-130'>
-      <div className='flex justify-center items-center'>
+    <div div className="h-130">
+      <div className="flex justify-center items-center">
         <Brand />
       </div>
-      <MainAction/>
+      <MainAction />
     </div>
-
-  )
+  );
 }
 
-export default landing
+export default landing;

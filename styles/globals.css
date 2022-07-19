@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&family=Roboto:ital@1&display=swap');
-*{
-  font-family: 'Archivo Narrow', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&family=Roboto:ital@1&display=swap");
+* {
+  font-family: "Archivo Narrow", sans-serif;
 }
-@import 'react-phone-number-input/style.css';
+@import "react-phone-number-input/style.css";
 @tailwind base;
 @tailwind components;
+@layer components {
+  input {
+    @apply outline-none;
+  }
+}
 @tailwind utilities;

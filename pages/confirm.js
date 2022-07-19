@@ -1,14 +1,14 @@
-import React from 'react'
-import ConfirmReview from '../components/ConfirmReview'
-import Review from '../components/Review'
+import React from "react";
+import ConfirmReview from "@components/ConfirmReview";
+import Review from "@components/Review";
 
 function confirm() {
   return (
     <>
-       <Review/>
-     <ConfirmReview/>
+      <Review />
+      <ConfirmReview />
     </>
-)
+  );
 }
 
-export default confirm
+export default confirm;

@@ -1,11 +1,11 @@
-import LoginForm from '../components/LoginForm'
+import LoginForm from "@components/LoginForm";
 
 function login() {
   return (
     <div>
-      <LoginForm/>
+      <LoginForm />
     </div>
-  )
+  );
 }
 
-export default login
+export default login;
